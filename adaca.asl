@@ -3,15 +3,13 @@ state("ADACA-Win64-Shipping", "1.0.6")
     	string100 stage: "ADACA-Win64-Shipping.exe", 0x4A54520, 0x520, 0x4A8, 0x0;
 	float IGT: "ADACA-Win64-Shipping.exe", 0x4509078;	
 	int loading: "ADACA-Win64-Shipping.exe", 0x44BD181;
-	int loading2: "ADACA-Win64-Shipping.exe", 0x44BD181;
 }
 
 state("ADACA-Win64-Shipping", "1.1.5")
 {
 	string100 stage: "ADACA-Win64-Shipping.exe", 0x499D120, 0x520, 0x4A8, 0x0;
 	float IGT: "ADACA-Win64-Shipping.exe", 0x4454308;
-	int loading: "ADACA-Win64-Shipping.exe", 0x47C1B08;
-	int loading2: "ADACA-Win64-Shipping.exe", 0x4408401;
+	int loading: "ADACA-Win64-Shipping.exe", 0x4408401;
 }
 
 init
@@ -52,9 +50,9 @@ split
 
 isLoading 
 {
-	if (current.loading == 0 || current.loading2 == 0)
+	if (current.loading == 0)
 	{
 		vars.IGT = current.IGT;
 	}
-	return current.loading == 0 || current.loading2 == 0 || current.IGT == vars.IGT;
+	return current.loading == 0 || current.IGT == vars.IGT;
 }
