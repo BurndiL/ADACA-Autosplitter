@@ -31,7 +31,7 @@ start
 {
     if((current.stage != "/Game/Maps/MenuLevel_E1") && (current.stage != null) && (current.stage != old.stage))
     {
-	vars.IGT = 0;
+	vars.IGT = current.IGT;
 	return true;
     }
 }
