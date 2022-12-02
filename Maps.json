@@ -1,0 +1,20 @@
+{
+  "Maps": [
+    {
+      "Name": "Spring Thaw",
+      "Path": "/Game/Maps/PineBluffs/CryoLab_P"
+    },
+    {
+      "Name": "Ship Breaker",
+      "Path": "/Game/Maps/PineBluffs/Ship1_P"
+    },
+    {
+      "Name": "Gutted",
+      "Path": "/Game/Maps/PineBluffs/Ship2_P"
+    },
+    {
+      "Name": "Repo Man",
+      "Path": "/Game/Maps/PineBluffs/CrashTown_3P"
+    }
+  ]
+}
