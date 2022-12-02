@@ -2,19 +2,114 @@
   "Maps": [
     {
       "Name": "Spring Thaw",
-      "Path": "/Game/Maps/PineBluffs/CryoLab_P"
+      "Path": "/Game/Maps/PineBluffs/CryoLab_P",
+      "LevelType": 1
     },
     {
       "Name": "Ship Breaker",
-      "Path": "/Game/Maps/PineBluffs/Ship1_P"
+      "Path": "/Game/Maps/PineBluffs/Ship1_P",
+      "LevelType": 1
     },
     {
       "Name": "Gutted",
-      "Path": "/Game/Maps/PineBluffs/Ship2_P"
+      "Path": "/Game/Maps/PineBluffs/Ship2_P",
+      "LevelType": 1
     },
     {
       "Name": "Repo Man",
-      "Path": "/Game/Maps/PineBluffs/CrashTown_3P"
+      "Path": "/Game/Maps/PineBluffs/CrashTown_3P",
+      "LevelType": 1
+    },
+    {
+      "Name": "Rail Head",
+      "Path": "/Game/Maps/PineBluffs/Railway_P",
+      "LevelType": 1
+    },
+    {
+      "Name": "Quick Detour",
+      "Path": "/Game/Maps/PineBluffs/Hike_P",
+      "LevelType": 1
+    },
+    {
+      "Name": "Tunnel Vision",
+      "Path": "/Game/Maps/PineBluffs/Tunnel1_P",
+      "LevelType": 1
+    },
+    {
+      "Name": "Rest Stop",
+      "Path": "/Game/Maps/PineBluffs/FS_Camp1_P",
+      "LevelType": 1
+    },
+    {
+      "Name": "Night Light",
+      "Path": "/Game/Maps/PineBluffs/FS_Camp2_P",
+      "LevelType": 1
+    },
+    {
+      "Name": "Gas",
+      "Path": "/Game/Maps/PineBluffs/Gas_P",
+      "LevelType": 1
+    },
+    {
+      "Name": "The Breach",
+      "Path": "/Game/Maps/PineBluffs/Vally_P",
+      "LevelType": 1
+    },
+    {
+      "Name": "Undermined",
+      "Path": "/Game/Maps/ExclusionZone/Mine1_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "The Zone",
+      "Path": "/Game/Maps/ExclusionZone/EZone1_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "Phantoms",
+      "Path": "/Game/Maps/ExclusionZone/Tunnel2_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "The Conflux",
+      "Path": "/Game/Maps/ExclusionZone/SwampBridge_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "Bridge Too Far",
+      "Path": "/Game/Maps/ExclusionZone/Ridgeline_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "Powerhouse",
+      "Path": "/Game/Maps/ExclusionZone/PowerPlant_Out_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "Cathedral",
+      "Path": "/Game/Maps/ExclusionZone/PowerPlant_In01_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "The Chimera",
+      "Path": "/Game/Maps/ExclusionZone/PowerPlant_In02_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "Theocide",
+      "Path": "/Game/Maps/ExclusionZone/PowerPlant_In03_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "Calico Blue",
+      "Path": "/Game/Maps/ExclusionZone/Core_P",
+      "LevelType": 2
+    },
+    {
+      "Name": "End of Episode 2",
+      "Path": "/Game/Maps/ExclusionZone/Ep2End_02_P",
+      "LevelType": 2
     }
+
   ]
 }
