@@ -109,7 +109,176 @@
       "Name": "End of Episode 2",
       "Path": "/Game/Maps/ExclusionZone/Ep2End_02_P",
       "LevelType": 2
+    },
+    {
+      "Name": "Vakt Ship",
+      "Path": "/Game/Maps/BonusLevels/ConShip02_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Beach Head",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_BeachHead_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Storm Drain",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Alley01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "The Dish",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Dish_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Concrete Forset",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_ConcreteForest_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "The Pit",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Mine02_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "The Haunt",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Ghost_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "The Bowels",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Flesh01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "MTN 001",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_MtnBnkr02_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Junction 06",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Rail01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "BM 061",
+      "Path": "/Game/Maps/BonusLevels/Dungeon_Levels/DG_Melter_01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "The Pines",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Forest01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Wolf Bunker",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_WolfBnkr01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Blue Caverns",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Caverns_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "OGR 018",
+      "Path": "/Game/Maps/BonusLevels/Dungeon_Levels/DG_Ogre_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Conduit",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Conduit_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Administration",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Office01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Power Plant",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_PowerPlant01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Sanctum",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Sanctum_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Cistern",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Cistern_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Catacombs",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_CtaCmb_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "The Nine Vaults",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Vault01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Bravo 2",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Police01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Necropol",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_City01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "COMS BBKR",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_ComBnkr01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Priory",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Swamp01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "South Ridge",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Ridgeline_02_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Rook's Nest",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_Rook_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Basement",
+      "Path": "/Game/Maps/BonusLevels/ZonePatrol_Levels/ZP_CultDungeon01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Coral Snake One",
+      "Path": "/Game/Maps/BonusLevels/ZP_CoralSnake_01_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Coral Snake Two",
+      "Path": "/Game/Maps/BonusLevels/ZP_CoralSnake_02_P",
+      "LevelType": 0
+    },
+    {
+      "Name": "Operation Arrow-Head",
+      "Path": "/Game/Maps/BonusLevels/CM_Arrow01_P",
+      "LevelType": 4
+    },
+    {
+      "Name": "Operation Black-Horse",
+      "Path": "/Game/Maps/Steppe/Train01_P",
+      "LevelType": 4
+    },
+    {
+      "Name": "Training Range",
+      "Path": "/Game/Maps/BonusLevels/CM_Training_P",
+      "LevelType": 4
     }
-
   ]
 }
