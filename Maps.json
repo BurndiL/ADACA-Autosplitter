@@ -268,12 +268,12 @@
     {
       "Name": "Operation Arrow-Head",
       "Path": "/Game/Maps/BonusLevels/CM_Arrow01_P",
-      "LevelType": 4
+      "LevelType": 0
     },
     {
       "Name": "Operation Black-Horse",
       "Path": "/Game/Maps/Steppe/Train01_P",
-      "LevelType": 4
+      "LevelType": 0
     },
     {
       "Name": "Training Range",
