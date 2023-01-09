@@ -26,13 +26,24 @@ init
     	}
     	vars.prevStage = "";
 	vars.IGT = 0;
+	vars.JustStarted = false;
 }
 start
 {
     if((current.stage != "/Game/Maps/MenuLevel_E1") && (current.stage != null) && (current.stage != old.stage))
     {
 	vars.IGT = current.IGT;
+	vars.JustStarted = true;
 	return true;
+    }
+}
+
+gameTime
+{
+    if (vars.JustStarted) 
+    {
+        vars.JustStarted = false;
+        return TimeSpan.Zero;
     }
 }
 
