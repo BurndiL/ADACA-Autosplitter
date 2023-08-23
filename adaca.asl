@@ -26,6 +26,8 @@ init
     	}
     	vars.prevStage = "";
 	vars.IGT = 0;
+	vars.ResetDateTime = DateTime.Now;
+	vars.ShouldReset = false;
 	vars.JustStarted = false;
 }
 start
@@ -33,6 +35,8 @@ start
     if((current.stage != "/Game/Maps/MenuLevel_E1") && (current.stage != null) && (current.stage != old.stage))
     {
 	vars.IGT = current.IGT;
+	vars.ResetDateTime = DateTime.Now;
+	vars.ShouldReset = false;
 	vars.JustStarted = true;
 	return true;
     }
@@ -58,6 +62,26 @@ split
         return true;
     }
 }
+
+reset 
+{
+	if (current.stage == "/Game/Maps/MenuLevel_E1")
+	{
+		if (!vars.ShouldReset) 
+		{
+			vars.ShouldReset = true;
+			vars.ResetDateTime = DateTime.Now;
+		} else {		
+			if (DateTime.Now - vars.ResetDateTime > TimeSpan.FromMilliseconds(500))
+			{
+				return true;
+			}
+		}
+	} else {
+		vars.ShouldReset = false;
+	}
+	return false;
+} 
 
 isLoading 
 {
