@@ -14,6 +14,19 @@ state("ADACA-Win64-Shipping", "1.1.5")
 
 init
 {	
+	// Change timing method to Game Time if it is currently set to real time.
+	if (timer.CurrentTimingMethod == TimingMethod.RealTime) {
+		var timingMessage = MessageBox.Show(
+			"ADACA speedrunning rules requires the timer to be set to Game Time.\n"+
+			"LiveSplit is currently set to show Real Time (RTA).\n"+
+			"It will now be changed to Game Time."+
+			"(You can change it back to Real Time in (Right Click > Compare Against > Real Time)",
+			"ADACA Autosplitter",	// Window title
+			MessageBoxButtons.OK, MessageBoxIcon.Exclamation); // Window buttons
+		
+		timer.CurrentTimingMethod = TimingMethod.GameTime;
+	}
+
 	// This is to know what version you are playing on
     	switch (modules.First().ModuleMemorySize) 
     	{ 
