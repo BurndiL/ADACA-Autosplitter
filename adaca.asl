@@ -17,7 +17,7 @@ init
 	// Change timing method to Game Time if it is currently set to real time.
 	if (timer.CurrentTimingMethod == TimingMethod.RealTime) {
 		var timingMessage = MessageBox.Show(
-			"ADACA speedrunning rules requires the timer to be set to Game Time.\n"+
+			"ADACA speedrunning rules require the timer to be set to Game Time.\n"+
 			"LiveSplit is currently set to show Real Time (RTA).\n"+
 			"It will now be changed to Game Time."+
 			"(You can change it back to Real Time in (Right Click > Compare Against > Real Time)",
