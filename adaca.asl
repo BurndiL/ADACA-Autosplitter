@@ -12,6 +12,13 @@ state("ADACA-Win64-Shipping", "1.1.5")
 	int loading: "ADACA-Win64-Shipping.exe", 0x4408401;
 }
 
+state("ADACA-Win64-Shipping", "1.3.7")
+{ 
+	string255 stage: "ADACA-Win64-Shipping.exe", 0x49A27E0, 0x520, 0x1A8, 0x10, 0x180, 0x20, 0x8B0, 0x0;
+	float IGT: "ADACA-Win64-Shipping.exe", 0x44595A8; 
+	int loading: "ADACA-Win64-Shipping.exe", 0x440D6A1;
+}
+
 init
 {	
 	// Change timing method to Game Time if it is currently set to real time.
