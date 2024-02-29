@@ -110,6 +110,90 @@
       "Path": "/Game/Maps/ExclusionZone/Ep2End_02_P",
       "LevelType": 2
     },
+	{
+      "Name": "Familiar Room",
+      "Path": "/Game/Maps/Episode_3/Prison01_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "An Accord",
+      "Path": "/Game/Maps/Episode_3/Prison02_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "Break Out",
+      "Path": "/Game/Maps/Episode_3/Prison03_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "Fugitive",
+      "Path": "/Game/Maps/Episode_3/Prison04_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "Fugitive",
+      "Path": "/Game/Maps/Episode_3/Prison04_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "SkyDock Tunnel",
+      "Path": "/Game/Maps/Episode_3/SkyDock_Tunnel_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "SkyDock Outside",
+      "Path": "/Game/Maps/Episode_3/SkyDock_Ship_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "Stowaway",
+      "Path": "/Game/Maps/Episode_3/AirShip_01_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "Beached",
+      "Path": "/Game/Maps/Episode_3/Beach01_P",
+      "LevelType": 3
+    },
+	
+	{
+      "Name": "Hold Out",
+      "Path": "/Game/Maps/Episode_3/SavloBnkr_01_P",
+      "LevelType": 3
+    },
+	{
+      "Name": "Sister Location",
+      "Path": "/Game/Maps/Episode_3/Jungle_01_P",
+      "LevelType": 3
+    },
+	{
+      "Name": "Dig Site",
+      "Path": "/Game/Maps/Episode_3/DigSite01_P",
+      "LevelType": 3
+    },
+	{
+      "Name": "Crawl Space",
+      "Path": "/Game/Maps/Episode_3/BlockMaze_P",
+      "LevelType": 3
+    },
+	{
+      "Name": "Epicenter",
+      "Path": "/Game/Maps/Episode_3/City_Center01_P",
+      "LevelType": 3
+    },
+	{
+      "Name": "Gate Keeper",
+      "Path": "/Game/Maps/Episode_3/GateChamber_P",
+      "LevelType": 3
+    },
     {
       "Name": "Vakt Ship",
       "Path": "/Game/Maps/BonusLevels/ConShip02_P",
