@@ -12,7 +12,7 @@ state("ADACA-Win64-Shipping", "1.1.5")
 	int loading: "ADACA-Win64-Shipping.exe", 0x4408401;
 }
 
-state("ADACA-Win64-Shipping", "1.3.7")
+state("ADACA-Win64-Shipping", "1.3.8")
 { 
 	string255 stage: "ADACA-Win64-Shipping.exe", 0x49A27E0, 0x520, 0x1A8, 0x10, 0x180, 0x20, 0x8B0, 0x0;
 	float IGT: "ADACA-Win64-Shipping.exe", 0x44595A8; 
@@ -40,6 +40,8 @@ init
 	case  82018304: version = "1.1.5";
 	    break;
 	case  82821120: version = "1.0.6"; 
+	    break;
+	case  82038784: version = "1.3.8";
 	    break;
 	default:        version = ""; 
 	    break;
